@@ -1,0 +1,72 @@
+#contact {
+  padding: 4rem 2rem;
+  background-color: #0d0d0d;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contactTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contactDesc {
+  font-size: 1.05rem;
+  color: #ccc;
+
+  margin-bottom: 3rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 2rem auto 0 auto; 
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #d4874d;
+  box-shadow: 0 0 0 3px rgba(250, 204, 21, 0.2);
+  outline: none;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: #888;
+}
+
+.contactForm button {
+  margin-top: 1rem;
+  padding: 0.9rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #ffe65a;
+  transform: scale(1.05);
+}
+
