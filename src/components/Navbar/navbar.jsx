@@ -2,7 +2,7 @@ import React from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';
 import resumeImg from '../../assets/resume.png';
-import resumePDF from '../../assets/resume_aanya.pdf';
+import resumePDF from '../../assets/resume.pdf';
 import {Link} from 'react-scroll';  
 import { useState } from 'react';
 import menu from '../../assets/menu.png'; 
