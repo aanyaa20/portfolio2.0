@@ -2,8 +2,17 @@ import React from "react";
 import "./projects.css";
 import expenseTrackerImg from "../../assets/expense-tracker.png";
 import tasklyImg from "../../assets/taskly.png";
+import AcadenceImg from "../../assets/Acadence.png";
 
 const projects = [
+   {
+    title: "Acadence — Personalized E-Learning Platform",
+    description: "AI-powered learning platform with personalized course recommendations, progress dashboards, interactive modules, and integrated chatbot assistance.",
+    image: AcadenceImg,
+   tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    live: "https://acadence-dashboard-9b46.vercel.app/",
+    github: "https://github.com/aanyaa20/acadence-dashboard"
+  },
   {
     title: "Expense Tracker",
     description: "A web app to track daily expenses with charts and filters.",

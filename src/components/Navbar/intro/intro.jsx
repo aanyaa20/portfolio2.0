@@ -1,6 +1,7 @@
+
 import React from 'react';
 import './intro.css';
-import bg from '../../../assets/myimage.png'; 
+import bg from '../../../assets/myimage2.png'; 
 import btnImg from '../../../assets/contact.png';
 import { Link } from 'react-scroll';  
 import { Typewriter } from 'react-simple-typewriter';
@@ -30,19 +31,19 @@ const Intro = () => {
 
       <div className="introContainer">
 
-  <div className="introText">
-  <span className="hello">Hey there,</span>
-  <span className="name">
-    I'm <span className="myname">Aanya Singhal</span>
-  </span>
-  <span className="role typing">Web Developer</span>
-  <p className="para">
-    Enthusiastic frontend developer focused on <br />
-    learning and creating beautiful web experiences.
-  </p>
+        <div className="introText">
+          <span className="hello">Hey there,</span>
+          <span className="name">
+            I'm <span className="myname">Aanya Singhal</span>
+          </span>
+          
+          <span className="role typing">Web Developer</span>
 
+          <p className="para">
+            Enthusiastic frontend developer focused on <br />
+            learning and creating beautiful web experiences.
+          </p>
 
-    
           <Link to="contact" smooth={true} duration={500}>
             <button className="btn">
               <img src={btnImg} alt="Contact" className='btnImg'/>Contact me
