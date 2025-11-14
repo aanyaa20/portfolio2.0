@@ -1,20 +1,35 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# My Portfolio Project
-=======
-# React + Vite
+# Aanya Singhal – Portfolio  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with **React.js** and **Tailwind CSS**.  
+I created it to showcase my skills, projects, and make it easy for people to connect with me.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features  
 
-## Expanding the ESLint configuration
+- Fully responsive – works on desktop and mobile  
+- Simple, clean, and minimal design  
+- Smooth scrolling between sections  
+- Projects with links to live demos and GitHub repos  
+- Contact form for easy communication  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 7977233 (initial commit)
-=======
-# portfolio2.0
->>>>>>> 8129ce4f1a53f0d90de772d22a0b8f24fbd697e1
+---
+
+## Tech Stack  
+
+- **React.js** – Component-based frontend  
+- **Tailwind CSS** – For quick and clean styling  
+- **React Scroll** – Smooth navigation  
+- (Optional) **Framer Motion** – Animations  
+
+---
+
+## Installation & Setup  
+
+If you want to run this project locally:  
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+npm install
+npm run dev
